@@ -1,0 +1,15 @@
+logging:
+  level:
+    com.bitnet: DEBUG
+
+management:
+  endpoints:
+    web:
+      base-path: /
+  server:
+    port: 8081
+
+spring:
+  groovy:
+    template:
+      check-template-location: false
