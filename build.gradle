@@ -43,6 +43,7 @@ springBoot {
 
 checkstyle {
     config project.resources.text.fromFile('checkstyle.xml')
+    ignoreFailures true
 }
 
 test {

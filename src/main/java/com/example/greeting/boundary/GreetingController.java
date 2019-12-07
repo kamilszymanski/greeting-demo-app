@@ -12,7 +12,7 @@ class GreetingController {
 
     private final Greetings greetings;
 
-    GreetingController(Greetings greetings) {
+    public GreetingController(Greetings greetings) {
         this.greetings = greetings;
     }
 
